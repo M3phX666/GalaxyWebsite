@@ -14,37 +14,44 @@ const Shop = () => {
             id: 1,
             type: "basic",
             src: "venus",
-            cardHeader: "karta Basic",
-            cardBody: "test "
+            cardHeader: "Venus",
+            cardBody: "Basic"
         },
         {
             id: 2,
             type: "premium",
             src: "mars",
-            cardHeader: "karta Premium",
-            cardBody: "test test test"
+            cardHeader: "Mars",
+            cardBody: "Premium"
         },
         {
             id: 3,
             type: "premium",
             src: "neptun",
-            cardHeader: "karta Premium",
-            cardBody: "test test test"
+            cardHeader: "Neptun",
+            cardBody: "Premium"
         },
         {
             id: 4,
             type: "premium",
             src: "pluton",
-            cardHeader: "karta Premium",
-            cardBody: "test test test"
+            cardHeader: "Pluton",
+            cardBody: "Premium"
         },
         {
             id: 5,
             type: "premium",
             src: "ksiezyc",
-            cardHeader: "karta Premium",
-            cardBody: "test test test"
-        }
+            cardHeader: "Księżyc",
+            cardBody: "Premium"
+        },
+        {
+            id: 6,
+            type: "basic",
+            src: "mars",
+            cardHeader: "Mars",
+            cardBody: "Basic"
+        },
     ]
 
     const [data, setData] = useState(dataCards);
@@ -57,10 +64,12 @@ const Shop = () => {
     }
 
     return (
-        <ShopContext.Provider value={data}>
-            <PricingMenu dataFunc={text} />
-            <PricingContainer />
-        </ShopContext.Provider>
+        <div style={{ height: '100vmax' }}>
+            <ShopContext.Provider value={data}>
+                <PricingMenu dataFunc={text} />
+                <PricingContainer />
+            </ShopContext.Provider>
+        </div>
     )
 }
 

@@ -48,7 +48,7 @@ const pricingCards = (props) => {
           <h2 style={{ color: '#808080' }}>{"~ " + (price*14.5).toFixed(2) + " ETH"}</h2>
           <h4>- {days + " days"}</h4>
           <h4>Private Quarters</h4>
-          <i><h2>BASIC</h2></i>
+          <i><h2>{(props.type).toUpperCase()}</h2></i>
         </div>
         <div className={`${styles.cardExternal}`}>
           <img src={image} alt="" />
