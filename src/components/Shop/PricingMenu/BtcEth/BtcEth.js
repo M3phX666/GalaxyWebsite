@@ -15,8 +15,8 @@ const BtcEth = () => {
                         <div
                             style={{ color: 'black' }}
                             className={`${styles.binance}`}>
-                            <b>Binance</b>
                             <img src={Btc} />
+                            <b>Binance</b>
                         </div>
                         <div
                             style={{ color: 'black' }}

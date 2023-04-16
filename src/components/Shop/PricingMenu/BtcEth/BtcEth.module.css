@@ -1,6 +1,11 @@
 .binance {
     position: relative;
     margin-top: 3px;
+    text-align: center;
+}
+
+.binance img {
+
 }
 
 .binance b {
