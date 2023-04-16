@@ -1,0 +1,34 @@
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 0px 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+
+.containerItem {
+    max-width: 40vw;
+}
+
+.contactFlex {
+    display: flex;
+    align-items: center;
+}
+
+.container div {
+    padding: 5px 0px;
+}
+
+@media screen and (max-width: 660px) {
+    .container {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .containerItem {
+        margin: auto;
+    }
+}
