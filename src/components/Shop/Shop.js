@@ -18,6 +18,13 @@ const Shop = () => {
             cardBody: "Basic"
         },
         {
+            id: 6,
+            type: "basic",
+            src: "mars",
+            cardHeader: "Mars",
+            cardBody: "Basic"
+        },
+        {
             id: 2,
             type: "premium",
             src: "mars",
@@ -44,14 +51,7 @@ const Shop = () => {
             src: "ksiezyc",
             cardHeader: "Księżyc",
             cardBody: "Premium"
-        },
-        {
-            id: 6,
-            type: "basic",
-            src: "mars",
-            cardHeader: "Mars",
-            cardBody: "Basic"
-        },
+        }
     ]
 
     const [data, setData] = useState(dataCards);
