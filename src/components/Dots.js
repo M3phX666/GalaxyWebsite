@@ -6,13 +6,13 @@ const Dots = (props) => {
             {props.imageSlider.map((slide, index) => (
                 <span
                     key={index}
-                    className={`${props.activeIndex === index ? 'dot active-dot' : 'dot'}`} 
+                    className={`${props.activeIndex === index ? 'dot active-dot' : 'dot'}`}
                     onClick={() => props.onclick(index)}
-      ></span>
-    ))
-}
-    </div >
-  )
+                ></span>
+            ))
+            }
+        </div >
+    )
 }
 
 export default Dots

@@ -4,7 +4,7 @@
 }
 
 :root {
-    --heights: 50vh;
+    --heights: 400px;
     --widths: 100%;
 }
 
@@ -12,7 +12,7 @@
     height: var(--heights);
     width: var(--widths);
     position: relative;
-    margin: auto;
+    margin: 50px 0px;
     overflow: hidden;
 }
 

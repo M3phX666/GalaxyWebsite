@@ -16,7 +16,7 @@ const Slider = () => {
             setActiveIndex(activeIndex === len
                 ? 0
                 : activeIndex + 1);
-        }, 5000)
+        }, 10000)
         return () => clearInterval(interval);
     }, [activeIndex]);
 
