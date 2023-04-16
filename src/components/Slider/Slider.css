@@ -12,7 +12,7 @@
     height: var(--heights);
     width: var(--widths);
     position: relative;
-    margin: 50px 0px 0px;
+    margin: 50px 0px;
     overflow: hidden;
 }
 

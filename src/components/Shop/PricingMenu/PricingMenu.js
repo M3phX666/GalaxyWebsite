@@ -6,6 +6,7 @@ import Mars from '../../../assets/Pictures/Mars.jpeg'
 import Neptun from '../../../assets/Pictures/Neptun.jpg'
 import Pluton from '../../../assets/Pictures/Pluton.jpg'
 import Ksiezyc from '../../../assets/Pictures/Ksiezyc.jpg'
+import Btc from '../../../assets/Icons/btc.png'
 
 const PricingMenu = (props) => {
     const [build, setBuild] = useState(true);
@@ -17,9 +18,17 @@ const PricingMenu = (props) => {
                     <div className={`${styles.build}`} onClick={() => setBuild(!build)}>Buy BTC / ETH
                         {build
                             ? <div className={`${styles.buildBody}`}>
-                                <p>Binance</p>
-                                <div className={`${styles.binance}`}>
-                                        
+                                <div
+                                    style={{ color: 'black' }}
+                                    className={`${styles.binance}`}>
+                                    <b>Binance</b>
+                                    <img src={Btc} />
+                                </div>
+                                <div
+                                    style={{ color: 'black' }}
+                                    className={`${styles.BTCETH}`}>
+                                    <a href="https://www.binance.com/pl/trade/BTC_USDT?theme=dark&type=spot">BTC</a>
+                                    <a href="https://www.binance.com/pl/trade/ETH_USDT?theme=dark&type=spot">ETH</a>
                                 </div>
                             </div>
                             : ''
