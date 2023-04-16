@@ -11,7 +11,7 @@ const PricingMenu = (props) => {
         <>
             <div className={`${styles.containerMenu}`}>
                 <BtcEth />
-                <MenuItems />
+                <MenuItems dataFunc={props.dataFunc} />
             </div>
             <div className={`${styles.containerPrices}`}>
 
