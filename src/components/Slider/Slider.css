@@ -31,7 +31,11 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    object-fit: cover;
+}
+@media screen and (min-width: 700px) {
+    .slide-image {
+        object-fit: cover;
+    }
 }
 .slider-title,
 .slide-text {

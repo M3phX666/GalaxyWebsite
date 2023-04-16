@@ -1,0 +1,50 @@
+.menuLogo {
+    position: absolute;
+    left: 0;
+    width: 25%;
+    height: 80px;
+    background-color: rgb(155, 44, 44);
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.menuItems {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.menuItem {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transform: scale(1.1);
+}
+
+.buildItem {
+    width: 35%;
+        text-align: center;
+}
+
+.menuItem:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.menuItem p {
+    position: absolute;
+    padding: 15px 15px 15px 10px;
+    color: rgba(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    top: 0px;
+}
+
+.menuItem img {
+    transform: scale(1.2);
+}

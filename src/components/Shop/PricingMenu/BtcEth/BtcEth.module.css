@@ -1,0 +1,39 @@
+.binance {
+    position: relative;
+    margin-top: 3px;
+}
+
+.binance b {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+}
+
+.BTCETH {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.build {
+    margin: auto;
+    position: relative;
+    width: 100px;
+    padding: 5px 0px;
+}
+
+@media screen and (max-width: 700px) {
+    .build {
+        display: none;
+    }
+}
+
+.buildBody {
+    width: 200px;
+    height: 115px;
+    background-color: rgba(30, 144, 255, 0.5);
+    border-radius: 20px;
+    position: absolute;
+    top: -140px;
+    left: -50px;
+}
