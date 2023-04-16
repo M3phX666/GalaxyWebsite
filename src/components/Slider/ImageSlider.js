@@ -5,17 +5,17 @@ import Third from '../../assets/Pictures/carousel/third.jpg'
 export default [
     {
         title: 'First Slider Image',
-        description: 'This is the First Slider',
+        description: '',
         urls: First
     },
     {
         title: 'First Slider Image',
-        description: 'This is the First Slider',
+        description: '',
         urls: Second
     },
     {
         title: 'First Slider Image',
-        description: 'This is the First Slider',
+        description: '',
         urls: Third
     }
 ]

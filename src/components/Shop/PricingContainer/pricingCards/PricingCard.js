@@ -53,10 +53,10 @@ const pricingCards = (props) => {
         <div className={`${styles.cardExternal}`}>
           <img src={image} alt="" />
           <div className={`${styles.cardHeader}`}>
-            <h3>{props.cardHeader}</h3>
+            <h2>{props.cardHeader}</h2>
           </div>
           <div className={`${styles.cardBody}`}>
-            <p>{props.cardBody}</p>
+            <h4>{props.cardBody}</h4>
           </div>
         </div>
       </div>

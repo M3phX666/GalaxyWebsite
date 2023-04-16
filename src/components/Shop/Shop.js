@@ -65,6 +65,18 @@ const Shop = () => {
             cardBody: "Basic"
         },
         {
+            type: "basic",
+            src: "ksiezyc",
+            cardHeader: "Księżyc",
+            cardBody: "Basic"
+        },
+        {
+            type: "standard",
+            src: "ksiezyc",
+            cardHeader: "Księżyc",
+            cardBody: "Standard"
+        },
+        {
             type: "premium",
             src: "ksiezyc",
             cardHeader: "Księżyc",
