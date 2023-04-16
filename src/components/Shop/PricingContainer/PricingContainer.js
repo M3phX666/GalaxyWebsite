@@ -13,9 +13,9 @@ const PricingContainer = () => {
           {
             <ShopContext.Consumer>
               {value =>
-                value.map(x => {
+                value.map((x, index) => {
                   return <PricingCard
-                    key={x.id}
+                    key={index}
                     {...x}
                   />
                 })

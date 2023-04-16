@@ -11,42 +11,60 @@ const Shop = () => {
 
     const dataCards = [
         {
-            id: 1,
             type: "basic",
             src: "venus",
             cardHeader: "Venus",
             cardBody: "Basic"
         },
         {
-            id: 6,
+            type: "standard",
+            src: "venus",
+            cardHeader: "Venus",
+            cardBody: "Standard"
+        },
+        {
+            type: "premium",
+            src: "venus",
+            cardHeader: "Venus",
+            cardBody: "Premium"
+        },
+        {
             type: "basic",
             src: "mars",
             cardHeader: "Mars",
             cardBody: "Basic"
         },
         {
-            id: 2,
+            type: "standard",
+            src: "mars",
+            cardHeader: "Mars",
+            cardBody: "Standard"
+        },
+        {
             type: "premium",
             src: "mars",
             cardHeader: "Mars",
             cardBody: "Premium"
         },
         {
-            id: 3,
-            type: "premium",
+            type: "basic",
             src: "neptun",
             cardHeader: "Neptun",
-            cardBody: "Premium"
+            cardBody: "Basic"
         },
         {
-            id: 4,
-            type: "premium",
+            type: "standard",
+            src: "neptun",
+            cardHeader: "Neptun",
+            cardBody: "Standard"
+        },
+        {
+            type: "basic",
             src: "pluton",
             cardHeader: "Pluton",
-            cardBody: "Premium"
+            cardBody: "Basic"
         },
         {
-            id: 5,
             type: "premium",
             src: "ksiezyc",
             cardHeader: "Księżyc",

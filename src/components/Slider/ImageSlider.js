@@ -1,6 +1,6 @@
-import First from '../assets/Pictures/carousel/first.jpg'
-import Second from '../assets/Pictures/carousel/second.jpg'
-import Third from '../assets/Pictures/carousel/third.jpg'
+import First from '../../assets/Pictures/carousel/first.jpg'
+import Second from '../../assets/Pictures/carousel/second.jpg'
+import Third from '../../assets/Pictures/carousel/third.jpg'
 
 export default [
     {
