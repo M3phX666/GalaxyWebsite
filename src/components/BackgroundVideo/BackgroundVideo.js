@@ -14,7 +14,7 @@ const BackgroundVideo = () => {
                 <p>WORLD'S FIRST SCIVILIAN SPACE TRAVEL</p>
                 <div className={`${styles.videoButtons}`}>
                     <Link to='/Training'>TRAINING</Link> 
-                    <Link to='/Launch'>LAUNCH</Link>
+                    <Link to='/Pricing'>LAUNCH</Link>
                 </div>
             </div>
         </div>

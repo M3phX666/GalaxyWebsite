@@ -21,8 +21,8 @@ const BtcEth = () => {
                         <div
                             style={{ color: 'black' }}
                             className={`${styles.BTCETH}`}>
-                            <a href="https://www.binance.com/pl/trade/BTC_USDT?theme=dark&type=spot">BTC</a>
-                            <a href="https://www.binance.com/pl/trade/ETH_USDT?theme=dark&type=spot">ETH</a>
+                            <a style={{transform: 'scale(1.1)'}} href="https://www.binance.com/pl/trade/BTC_USDT?theme=dark&type=spot">BTC</a>
+                            <a style={{transform: 'scale(1.1)'}} href="https://www.binance.com/pl/trade/ETH_USDT?theme=dark&type=spot">ETH</a>
                         </div>
                     </div>
                     : ''

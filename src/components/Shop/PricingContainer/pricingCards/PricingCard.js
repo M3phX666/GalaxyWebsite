@@ -45,7 +45,7 @@ const pricingCards = (props) => {
       <div className={`${styles.cardInner}`}>
         <div className={`${styles.innerText}`}>
           <h1 style={{ color: '#DAA520' }}>{price + " BTC"}</h1>
-          <h2 style={{ color: '#808080' }}>{"~ " + (price*14.5).toFixed(2) + " ETH"}</h2>
+          <h2 style={{ color: '#808080' }}>{"~ " + (price * 14.5).toFixed(2) + " ETH"}</h2>
           <h4>- {days + " days"}</h4>
           <h4>Private Quarters</h4>
           <i><h2>{(props.type).toUpperCase()}</h2></i>

@@ -94,7 +94,7 @@ const Shop = () => {
     }
 
     return (
-        <div style={{ height: '100vmax' }}>
+        <div>
             <ShopContext.Provider value={data}>
                 <PricingMenu dataFunc={text} />
                 <PricingContainer />

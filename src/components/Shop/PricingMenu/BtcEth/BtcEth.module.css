@@ -1,11 +1,7 @@
 .binance {
     position: relative;
-    margin-top: 3px;
+    margin-top: 10px;
     text-align: center;
-}
-
-.binance img {
-
 }
 
 .binance b {
@@ -15,7 +11,7 @@
 }
 
 .BTCETH {
-    margin-top: 5px;
+    margin-top: 6px;
     display: flex;
     justify-content: space-around;
 }
