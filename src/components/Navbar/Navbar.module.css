@@ -9,6 +9,10 @@
     z-index: 1;
 }
 
+.hideShow {
+    transition: 0.5s;
+}
+
 .navMenu {
     display: flex;
     max-height: 820px;
@@ -24,7 +28,6 @@
 
 .navMenuShow {
     left: 0;
-
 }
 
 .hamburger {
