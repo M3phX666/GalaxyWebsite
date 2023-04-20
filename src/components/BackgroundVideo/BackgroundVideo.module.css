@@ -1,3 +1,8 @@
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
 #video {
     /**/
     position: fixed;
@@ -5,11 +10,6 @@
     height: 100vh;
     z-index: -1;
     object-fit: cover;
-}
-
-.container {
-    height: 100vh;
-    width: 100%;
 }
 
 .videoText {

@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 :root {
     --heights: 400px;
     --widths: 100%;
@@ -8,14 +13,15 @@
     width: var(--widths);
     position: relative;
     margin: 50px 0px;
+    overflow: hidden;
 }
 
-
-
+.active {
+    display: inline-block;
+}
 .inactive {
     display: none;
 }
-
 .slides {
     height: var(--heights);
     width: var(--widths);

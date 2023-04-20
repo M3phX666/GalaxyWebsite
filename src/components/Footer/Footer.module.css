@@ -7,6 +7,10 @@
     justify-content: space-between;
 }
 
+.container div {
+    padding: 5px 0px;
+}
+
 .containerItem {
     max-width: 40vw;
 }
@@ -14,10 +18,6 @@
 .contactFlex {
     display: flex;
     align-items: center;
-}
-
-.container div {
-    padding: 5px 0px;
 }
 
 @media screen and (max-width: 660px) {

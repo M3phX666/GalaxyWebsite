@@ -8,7 +8,9 @@ const Footer = () => {
             <div className={`${styles.containerItem}`}>
                 <div className={`${styles.contactFlex}`}>
                     <div>
-                        <FaSearchLocation size={15} style={{ color: '#ffffff', marginRight: '1rem' }} />
+                        <FaSearchLocation
+                            size={15}
+                            style={{ color: '#ffffff', marginRight: '1rem' }} />
                     </div>
                     <div>
                         <h4>123 Acme St.</h4>
@@ -17,7 +19,9 @@ const Footer = () => {
                 </div>
                 <div className={`${styles.contactFlex}`}>
                     <div>
-                        <FaPhone size={15} style={{ color: '#ffffff', marginRight: '1rem' }} />
+                        <FaPhone
+                            size={15}
+                            style={{ color: '#ffffff', marginRight: '1rem' }} />
                     </div>
                     <div>
                         <h4>1-800-123-1234</h4>
@@ -25,7 +29,9 @@ const Footer = () => {
                 </div>
                 <div className={`${styles.contactFlex}`}>
                     <div>
-                        <FaMailBulk size={15} style={{ color: '#ffffff', marginRight: '1rem' }} />
+                        <FaMailBulk
+                            size={15}
+                            style={{ color: '#ffffff', marginRight: '1rem' }} />
                     </div>
                     <div>
                         <h4>trips@galaxy.com</h4>
@@ -40,9 +46,15 @@ const Footer = () => {
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, neque!</p>
                 </div>
                 <div>
-                    <FaFacebook size={15} style={{ color: '#ffffff', marginRight: '1rem' }} />
-                    <FaTwitter size={15} style={{ color: '#ffffff', marginRight: '1rem' }} />
-                    <FaLinkedin size={15} style={{ color: '#ffffff', marginRight: '1rem' }} />
+                    <FaFacebook
+                        size={15}
+                        style={{ color: '#ffffff', marginRight: '1rem' }} />
+                    <FaTwitter
+                        size={15}
+                        style={{ color: '#ffffff', marginRight: '1rem' }} />
+                    <FaLinkedin
+                        size={15}
+                        style={{ color: '#ffffff', marginRight: '1rem' }} />
                 </div>
             </div>
         </div>

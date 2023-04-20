@@ -14,12 +14,17 @@
     max-height: 820px;
 }
 
+.navMenu li {
+    margin: 0px 10px;
+}
+
 .navMenu li:hover {
     text-shadow: 1px 2px 2px;
 }
 
-.navMenu li {
-    margin: 0px 10px;
+.navMenuShow {
+    left: 0;
+
 }
 
 .hamburger {
@@ -42,7 +47,6 @@
         align-items: center;
         background-color: rgba(0, 0, 0, 0.8);
         font-size: 1.5rem;
-        transition: 0.5s;
         z-index: -1;
     }
 
